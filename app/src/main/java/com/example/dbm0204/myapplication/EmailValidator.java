@@ -3,6 +3,9 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import java.util.regex.Pattern;
 
+/**
+ * This Class implements TextWatcherg
+ */
 public class EmailValidator implements TextWatcher {
 
     public static final Pattern EMAIL_PATTERN = Pattern.compile(
